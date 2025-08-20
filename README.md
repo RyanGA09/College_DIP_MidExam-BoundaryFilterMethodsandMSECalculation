@@ -1,16 +1,16 @@
-# College Digital Image Processing Mid Exam - Boundary Filter Methods and MSE Calculation
+# College Digital Image Processing Mid Exam - Boundary Filter & Low Pass Filter Methods and MSE Calculation
 
 This MATLAB project performs experiments on boundary filter methods applied to a breast ultrasound image. The main techniques covered include:
 
-- Low Pass Filter  
-- High Pass Filter  
+- Boundary FIlter
+- Low Pass Filter (Kernel Variants)  
 - MSE (Mean Squared Error) calculation  
 
 The project demonstrates how to apply these filters and evaluate image quality based on MSE.
 
 The results are visualized to compare the original and processed images for analysis.
 
-> 🎓 **This project was developed as a Mid Exam (UTS) practical assignment for the Digital Image Processing (DIP) course (in Indonesian: Pengolahan Citra Digital - PCD).**
+> 🎓 **This project was developed as a Mid Exam (UTS) practical assignment for the Digital Image Processing (DIP) course (in Indonesian: Pengolahan Citra Digital (PCD)).**
 
 ## ▶️ How to Use
 
@@ -26,8 +26,9 @@ The results are visualized to compare the original and processed images for anal
 CollegeTask-MidExam_BoundaryFilter_MSE/
 ├── assets/                         # Folder containing ultrasound image
 │   └── shadow.jpg                  # Sample ultrasound image with shadow artifact
-├── LowPassFilter1.m                # Implements high pass filter
-├── LowPassFilter2.m                # Implements low pass filter
+├── BoundaryFilter.m                # Implements Boundary filter
+├── LowPassFilter1.m                # Implements Low Pass filter 1
+├── LowPassFilter2.m                # Implements Low Pass filter 2
 ├── MSECalculation.m                # Computes MSE, RMSE, and PSNR metrics
 ├── README.md                       # Project documentation
 └── LICENSE                         # Project license information (MIT License)
