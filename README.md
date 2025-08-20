@@ -1,1 +1,1 @@
-# College_DIP_Mid_Exam
+# College Digital Image Processing Mid Exam
