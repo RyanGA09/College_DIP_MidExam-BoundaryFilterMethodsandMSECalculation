@@ -23,7 +23,7 @@ The results are visualized to compare the original and processed images for anal
 ## 📁 Project Structure
 
 ```plaintext
-CollegeTask-MidExam_BoundaryFilter_MSE/
+College_DIP_MidExam-BoundaryFilterLowPassFilterMSECalculation/
 ├── assets/                         # Folder containing ultrasound image
 │   └── shadow.jpg                  # Sample ultrasound image with shadow artifact
 ├── BoundaryFilter.m                # Implements Boundary filter
